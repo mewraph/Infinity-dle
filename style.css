@@ -1,0 +1,760 @@
+/* ============================= */
+/*         STYLE GENERAL         */
+/* ============================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+
+    background-image:
+        linear-gradient(
+            rgba(17, 24, 39, 0.75),
+            rgba(17, 24, 39, 0.75)
+        ),
+        url("background.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 40px 20px;
+}
+
+
+/* ============================= */
+/*       CONTENEUR DU JEU        */
+/* ============================= */
+
+.game-container {
+    width: 100%;
+    max-width: 1100px;
+}
+
+
+/* ============================= */
+/*           HEADER              */
+/* ============================= */
+
+.game-header {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.game-header h1 {
+    font-size: 48px;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 10px;
+}
+
+.game-header p {
+    font-size: 18px;
+
+    color: #9ca3af;
+}
+
+
+/* ============================= */
+/*        BARRE DE RECHERCHE     */
+/* ============================= */
+
+.search-section {
+    position: relative;
+
+    margin-bottom: 40px;
+}
+
+#character-search {
+    width: 100%;
+
+    padding: 18px 20px;
+
+    font-size: 18px;
+
+    color: white;
+
+    background: #1f2937;
+
+    border: 2px solid #374151;
+
+    border-radius: 12px;
+
+    outline: none;
+
+    transition: 0.2s;
+}
+
+#character-search:focus {
+    border-color: #6b7280;
+}
+
+#character-search::placeholder {
+    color: #9ca3af;
+}
+
+
+/* ============================= */
+/*       RESULTATS RECHERCHE     */
+/* ============================= */
+
+#search-results {
+    position: absolute;
+
+    width: 100%;
+
+    top: 65px;
+
+    left: 0;
+
+    background: #1f2937;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    z-index: 10;
+}
+
+
+/* ============================= */
+/*        PROPOSITIONS           */
+/* ============================= */
+
+.guesses-section h2 {
+    font-size: 16px;
+
+    color: #9ca3af;
+
+    margin-bottom: 15px;
+
+    letter-spacing: 2px;
+}
+
+#guesses-container {
+    min-height: 150px;
+
+    background: #1f2937;
+
+    border: 1px solid #374151;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    justify-content: flex-start;
+}
+
+.empty-message {
+    color: #6b7280;
+
+    font-size: 16px;
+}
+
+/* ============================= */
+/*        EN-TÊTES TABLEAU       */
+/* ============================= */
+
+.guess-header {
+
+    display: grid;
+
+    grid-template-columns: 1.5fr repeat(7, 1fr);
+
+    gap: 8px;
+
+    margin-bottom: 10px;
+
+    padding: 0 0 5px 0;
+
+}
+
+.guess-header div {
+
+    text-align: center;
+
+    color: #9ca3af;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 0.8px;
+
+}
+
+/* ============================= */
+/*        VERSION MOBILE         */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 25px 15px;
+    }
+
+    .game-header h1 {
+        font-size: 32px;
+    }
+
+    .game-header p {
+        font-size: 16px;
+    }
+
+    #character-search {
+        font-size: 16px;
+
+        padding: 16px;
+    }
+
+}
+/* ============================= */
+/*      RESULTAT DE RECHERCHE    */
+/* ============================= */
+
+.search-result {
+    padding: 15px 20px;
+
+    cursor: pointer;
+
+    border-bottom: 1px solid #374151;
+
+    transition: background 0.2s;
+}
+
+.search-result:hover {
+    background: #374151;
+}
+
+.search-result:last-child {
+    border-bottom: none;
+}
+/* ============================= */
+/*        PROPOSITION             */
+/* ============================= */
+
+.guess {
+
+    display: grid;
+
+    grid-template-columns: 1.5fr repeat(7, 1fr);
+
+    gap: 8px;
+
+    width: 100%;
+
+    margin-bottom: 10px;
+
+}
+
+
+/* ============================= */
+/*       NOM DU PERSONNAGE        */
+/* ============================= */
+
+.result-box {
+
+    min-height: 100px;
+
+    background: rgba(55, 65, 81, 0.95);
+
+    border-radius: 10px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    padding: 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 6px;
+
+}
+
+
+/* ============================= */
+/*        CASE RESULTAT           */
+/* ============================= */
+
+.result-box {
+
+    min-height: 100px;
+
+    background: #374151;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 6px;
+
+}
+
+
+.result-label {
+
+    font-size: 11px;
+
+    color: #9ca3af;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+
+}
+
+
+.result-value {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    word-break: break-word;
+
+}
+
+
+.result-icon {
+
+    font-size: 22px;
+
+}
+/* ============================= */
+/*       COULEURS RESULTATS      */
+/* ============================= */
+
+.result-box.green {
+    background: #166534;
+    border: 2px solid #22c55e;
+}
+
+.result-box.orange {
+    background: #9a3412;
+    border: 2px solid #f97316;
+}
+
+.result-box.red {
+    background: #991b1b;
+    border: 2px solid #ef4444;
+}
+
+/* ============================= */
+/*        MESSAGE VICTOIRE       */
+/* ============================= */
+
+#win-message-container {
+    margin-bottom: 20px;
+}
+
+.win-message {
+
+    padding: 20px;
+
+    background: #166534;
+
+    border: 2px solid #22c55e;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    .attempts {
+    display: inline-block;
+
+    margin-top: 8px;
+
+    font-size: 16px;
+
+    color: #dcfce7;
+}
+
+}
+/* ============================= */
+/*       ANIMATION PROPOSITION   */
+/* ============================= */
+
+.guess {
+
+    animation: guessAppear 0.35s ease-out;
+
+}
+
+
+@keyframes guessAppear {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(-15px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+/* ============================= */
+/*      IMAGE PERSONNAGE          */
+/* ============================= */
+
+.guess-image {
+
+    width: 65px;
+
+    height: 65px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 2px solid rgba(255, 255, 255, 0.2);
+
+}
+
+
+/* ============================= */
+/*       CARTE PERSONNAGE        */
+/* ============================= */
+
+.guess-name {
+
+    min-height: 140px;
+
+    background: rgba(55, 65, 81, 0.95);
+
+    border-radius: 10px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 8px;
+
+    gap: 8px;
+
+    font-weight: bold;
+
+    overflow: hidden;
+
+}
+
+
+/* ============================= */
+/*       IMAGE PERSONNAGE        */
+/* ============================= */
+
+.guess-image {
+
+    width: 90px;
+
+    height: 90px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    border: 2px solid rgba(255, 255, 255, 0.15);
+
+    transition: transform 0.2s ease;
+
+}
+
+
+/* Petit zoom au survol */
+
+.guess-name:hover .guess-image {
+
+    transform: scale(1.05);
+
+}
+
+
+/* ============================= */
+/*        NOM PERSONNAGE         */
+/* ============================= */
+
+.guess-name-text {
+
+    font-size: 13px;
+
+    line-height: 1.2;
+
+}
+/* ============================= */
+/*        BOUTON REJOUER         */
+/* ============================= */
+
+.replay-button {
+
+    margin-top: 15px;
+
+    padding: 12px 30px;
+
+    background: #22c55e;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.replay-button:hover {
+
+    background: #16a34a;
+
+    transform: scale(1.05);
+
+}
+
+
+.replay-button:active {
+
+    transform: scale(0.98);
+
+}
+.success-icon {
+    color: #86efac;
+}
+
+.error-icon {
+    color: #fca5a5;
+}
+
+.result-icon {
+    font-size: 24px;
+    font-weight: bold;
+}
+.search-result {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.search-result-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.search-result:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+.stats-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.stat {
+    min-width: 180px;
+    padding: 15px 25px;
+    background: rgba(17, 24, 39, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.stat-label {
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.stat-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+#hints-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.hint {
+    flex: 1;
+    max-width: 300px;
+    padding: 12px 20px;
+    background: rgba(17, 24, 39, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hint-title {
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.hint-value {
+    font-size: 16px;
+    font-weight: bold;
+}
+.win-message {
+    animation: victoryAppear 0.7s ease-out;
+}
+
+@keyframes victoryAppear {
+
+    0% {
+        opacity: 0;
+        transform: scale(0.7) translateY(-20px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale(1.05) translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.victory-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.victory-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto;
+
+    animation: victoryImageAppear 0.8s ease-out;
+}
+
+@keyframes victoryImageAppear {
+
+    0% {
+        opacity: 0;
+        transform: scale(0.5) rotate(-5deg);
+    }
+
+    70% {
+        transform: scale(1.08) rotate(2deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+}
+.confetti {
+    position: fixed;
+    top: -20px;
+
+    width: 10px;
+    height: 16px;
+
+    z-index: 9999;
+
+    pointer-events: none;
+
+    animation-name: confettiFall;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes confettiFall {
+
+    0% {
+        top: -20px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 110vh;
+        opacity: 0;
+        transform:
+            translateX(calc((100vw - 50vw) * 0.2))
+            rotate(720deg);
+    }
+}

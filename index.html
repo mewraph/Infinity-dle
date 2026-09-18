@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>One Piece Dle</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <main class="game-container">
+
+        <header class="game-header">
+
+            <h1>INFINITY-DLE by MewRaph</h1>
+
+            <p>Devine le personnage ONE PIECE mystère !</p>
+
+        </header>
+        
+        <section class="stats-section">
+         <div class="stat">
+            <span class="stat-label">PARTIES JOUÉES</span>
+            <span class="stat-value" id="games-played">0</span>
+        </div>
+
+        <div class="stat">
+            <span class="stat-label">MOY. PROPOSITIONS</span>
+            <span class="stat-value" id="average-guesses">0</span>
+        </div>
+    </section>
+
+
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="character-search"
+                placeholder="🔍 Rechercher un personnage..."
+                autocomplete="off"
+            >
+
+            <div id="search-results"></div>
+
+        </section>
+
+
+        <section class="guesses-section">
+
+    <h2>TES PROPOSITIONS</h2>
+
+    <div id="hints-container"></div>
+
+    <div id="win-message-container"></div>
+
+    <div class="guess-header">
+
+        <div>PERSONNAGE</div>
+        <div>GENRE</div>
+        <div>AFFILIATION</div>
+        <div>FRUIT</div>
+        <div>HAKI</div>
+        <div>PRIME</div>
+        <div>ORIGINE</div>
+        <div>PREMIER ARC</div>
+
+    </div>
+
+    <div id="guesses-container">
+
+        <p class="empty-message">
+            Aucune proposition pour le moment.
+        </p>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
