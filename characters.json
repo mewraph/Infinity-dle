@@ -1848,7 +1848,455 @@
         "firstArc": "Alabasta",
         "image": "images/chaka.png"
     },
-           
+
+    {
+        "name": "Leo",
+        "gender": "Homme",
+        "affiliation": "Tontata",
+        "fruitType": "Paramecia",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Dressrosa",
+        "image": "images/leo.png"
+    },
+
+    {
+        "name": "Shakuyaku",
+        "gender": "Femme",
+        "affiliation": "Bar de l'Arnaque",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": null,
+        "origin": "Calm Belt",
+        "firstArc": "Sabaody",
+        "image": "images/shakky.png"
+    },
+  
+    {
+        "name": "Mere Nyon ( Gloriosa )",
+        "gender": "Femme",
+        "affiliation": "Kujas",
+        "fruitType": "Aucun",
+        "haki": [
+            "Armement"
+        ],
+        "bounty": null,
+        "origin": "Calm Belt",
+        "firstArc": "Amazon Lily",
+        "image": "images/nyon.png"
+    },
+  
+    {
+        "name": "Charlotte Laura ( Lola )",
+        "gender": "Femme",
+        "affiliation": "L'Équipage du Rolling",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 24000000,
+        "origin": "Grand Line",
+        "firstArc": "Thriller Bark",
+        "image": "images/lola.png"
+    },
+
+    {
+        "name": "Yasopp",
+        "gender": "Homme",
+        "affiliation": "L'Équipage du Roux",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": null,
+        "origin": "East Blue",
+        "firstArc": "Romance Dawn",
+        "image": "images/yasopp.png"
+    },
+  
+    {
+        "name": "Lucky Roux",
+        "gender": "Homme",
+        "affiliation": "L'Équipage du Roux",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": null,
+        "origin": "South Blue",
+        "firstArc": "Romance Dawn",
+        "image": "images/lucky.png"
+    },
+  
+    {
+        "name": "Vista",
+        "gender": "Homme",
+        "affiliation": "L'Équipage de Barbe Blanche",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": null,
+        "origin": "North Blue",
+        "firstArc": "Marine Ford",
+        "image": "images/vista.png"
+    },
+  
+    {
+        "name": "Joz",
+        "gender": "Homme",
+        "affiliation": "L'Équipage de Barbe Blanche",
+        "fruitType": "Paramecia",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": null,
+        "origin": "West Blue",
+        "firstArc": "Jaya",
+        "image": "images/joz.png"
+    },
+  
+    {
+        "name": "Izo",
+        "gender": "Homme",
+        "affiliation": "L'Équipage de Barbe Blanche",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 510000000,
+        "origin": "Grand Line",
+        "firstArc": "Marine Ford",
+        "image": "images/izo.png"
+    },
+  
+    {
+        "name": "Baron Tamago",
+        "gender": "Homme",
+        "affiliation": "L'Équipage de Big Mom",
+        "fruitType": "Zoan",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 429000000,
+        "origin": "Grand Line",
+        "firstArc": "Ile des Hommes-poissons",
+        "image": "images/oeuf.png"
+    },
+  
+    {
+        "name": "Haguar D. Sauro",
+        "gender": "Homme",
+        "affiliation": "Aucun",
+        "fruitType": "Aucun",
+        "haki": [
+            "Armement"
+        ],
+        "bounty": null,
+        "origin": "South Blue",
+        "firstArc": "Enies Lobby",
+        "image": "images/sauro.png"
+    },
+  
+    {
+        "name": "Black Maria",
+        "gender": "Femme",
+        "affiliation": "L'Équipage aux Cent Bêtes",
+        "fruitType": "Zoan",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 480000000,
+        "origin": "Grand Line",
+        "firstArc": "Wano",
+        "image": "images/maria.png"
+    },
+  
+    {
+        "name": "Boa Sandersonia",
+        "gender": "Femme",
+        "affiliation": "Kujas",
+        "fruitType": "Zoan",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 40000000,
+        "origin": "Calm Belt",
+        "firstArc": "Amazon Lily",
+        "image": "images/sand.png"
+    },
+  
+    {
+        "name": "Marigold",
+        "gender": "Femme",
+        "affiliation": "Kujas",
+        "fruitType": "Zoan",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 40000000,
+        "origin": "Calm Belt",
+        "firstArc": "Amazon Lily",
+        "image": "images/mari.png"
+    },
+  
+    {
+        "name": "Sugar",
+        "gender": "Femme",
+        "affiliation": "L'Équipage de Don Quichotte Doflamingo",
+        "fruitType": "Paramecia",
+        "haki": [],
+        "bounty": 0,
+        "origin": "North Blue",
+        "firstArc": "Dressrosa",
+        "image": "images/sugar.png"
+    },
+  
+    {
+        "name": "Crocus",
+        "gender": "Homme",
+        "affiliation": "L'Équipage des Pirates de Roger",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation"
+        ],
+        "bounty": null,
+        "origin": "Grand Line",
+        "firstArc": "Reverse Mountain",
+        "image": "images/crocus.png"
+    },
+  
+    {
+        "name": "Dellinger",
+        "gender": "Homme",
+        "affiliation": "L'Équipage de Don Quichotte Doflamingo",
+        "fruitType": "Aucun",
+        "haki": [
+            "Armement"
+        ],
+        "bounty": 15000000,
+        "origin": "North Blue",
+        "firstArc": "Dressrosa",
+        "image": "images/dell.png"
+    },
+  
+    {
+        "name": "Lao G",
+        "gender": "Homme",
+        "affiliation": "L'Équipage de Don Quichotte Doflamingo",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 61000000,
+        "origin": "North Blue",
+        "firstArc": "Dressrosa",
+        "image": "images/g.png"
+    },
+  
+    {
+        "name": "Don Chinjao",
+        "gender": "Homme",
+        "affiliation": "Pays des fleurs",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation",
+            "Armement",
+            "Roi"
+        ],
+        "bounty": 542000000,
+        "origin": "Grand Line",
+        "firstArc": "Dressrosa",
+        "image": "images/chinjao.png"
+    },
+
+    {
+        "name": "Hannyabal",
+        "gender": "Homme",
+        "affiliation": "Impel Down",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "South Blue",
+        "firstArc": "Impel Down",
+        "image": "images/han.png"
+    },
+  
+    {
+        "name": "Octy",
+        "gender": "Homme",
+        "affiliation": "Takoyaki 8",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 8000000,
+        "origin": "Grand Line",
+        "firstArc": "Arlong Park",
+        "image": "images/octy.png"
+    },
+  
+    {
+        "name": "Hermep",
+        "gender": "Homme",
+        "affiliation": "Marine",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation"
+        ],
+        "bounty": 100000000,
+        "origin": "East Blue",
+        "firstArc": "Romance Dawn",
+        "image": "images/hermep.png"
+    },
+  
+    {
+        "name": "Jack",
+        "gender": "Homme",
+        "affiliation": "L'Équipage aux Cent Bêtes",
+        "fruitType": "Zoan",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 1000000000,
+        "origin": "Grand Line",
+        "firstArc": "Dressrosa",
+        "image": "images/jack.png"
+    },
+  
+    {
+        "name": "Duval",
+        "gender": "Homme",
+        "affiliation": "Rosy life Riders",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Sabaody",
+        "image": "images/duval.png"
+    },
+  
+    {
+        "name": "Johnny",
+        "gender": "Homme",
+        "affiliation": "Yosaku",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "East Blue",
+        "firstArc": "Baratie",
+        "image": "images/johnny.png"
+    },
+  
+    {
+        "name": "Yosaku",
+        "gender": "Homme",
+        "affiliation": "Johnny",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "East Blue",
+        "firstArc": "Baratie",
+        "image": "images/yos.png"
+    },
+  
+    {
+        "name": "Wapol",
+        "gender": "Homme",
+        "affiliation": "Royaume maléfique de Black Drum",
+        "fruitType": "Paramecia",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Drum",
+        "image": "images/wapol.png"
+    },
+  
+    {
+        "name": "Absalom",
+        "gender": "Homme",
+        "affiliation": "Pirates de l'écorce",
+        "fruitType": "Paramecia",
+        "haki": [],
+        "bounty": 0,
+        "origin": "West Blue",
+        "firstArc": "Thriller Bark",
+        "image": "images/absalom.png"
+    },
+  
+    {
+        "name": "Ohm",
+        "gender": "Homme",
+        "affiliation": "Clan d'Ener",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation"
+        ],
+        "bounty": 0,
+        "origin": "Îles Célestes",
+        "firstArc": "Skypiea",
+        "image": "images/ohm.png"
+    },
+  
+    {
+        "name": "Satori",
+        "gender": "Homme",
+        "affiliation": "Clan d'Ener",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation"
+        ],
+        "bounty": 0,
+        "origin": "Îles Célestes",
+        "firstArc": "Skypiea",
+        "image": "images/satori.png"
+    },
+  
+    {
+        "name": "Gedatsu",
+        "gender": "Homme",
+        "affiliation": "Clan d'Ener",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation"
+        ],
+        "bounty": 0,
+        "origin": "Îles Célestes",
+        "firstArc": "Skypiea",
+        "image": "images/ged.png"
+    },
+  
+    {
+        "name": "Shura",
+        "gender": "Homme",
+        "affiliation": "Clan d'Ener",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation"
+        ],
+        "bounty": 0,
+        "origin": "Îles Célestes",
+        "firstArc": "Skypiea",
+        "image": "images/shura.png"
+    },
+
+    {
+        "name": "Zunesh",
+        "gender": "Homme",
+        "affiliation": "Aucun",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Zou",
+        "image": "images/zun.png"
+    },
+                       
     {
         "name": "Koala",
         "gender": "Femme",
