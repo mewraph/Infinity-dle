@@ -2034,7 +2034,7 @@
     },
   
     {
-        "name": "Marigold",
+        "name": "Boa Marigold",
         "gender": "Femme",
         "affiliation": "Kujas",
         "fruitType": "Zoan",
@@ -2296,7 +2296,180 @@
         "firstArc": "Zou",
         "image": "images/zun.png"
     },
-                       
+
+    {
+        "name": "Genzo",
+        "gender": "Homme",
+        "affiliation": "Kokoyashi",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "East Blue",
+        "firstArc": "Arlong Park",
+        "image": "images/genzo.png"
+    },
+
+    {
+        "name": "Hina",
+        "gender": "Femme",
+        "affiliation": "Marine",
+        "fruitType": "Paramecia",
+        "haki": [],
+        "bounty": 0,
+        "origin": "West Blue",
+        "firstArc": "Alabasta",
+        "image": "images/hina.png"
+    },
+ 
+    {
+        "name": "Tsuru",
+        "gender": "Femme",
+        "affiliation": "Marine",
+        "fruitType": "Paramecia",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 0,
+        "origin": "North Blue",
+        "firstArc": "Jaya",
+        "image": "images/tsuru.png"
+    },
+ 
+    {
+        "name": "Vergo",
+        "gender": "Homme",
+        "affiliation": "L'Équipage de Don Quichotte Doflamingo",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 0,
+        "origin": "North Blue",
+        "firstArc": "Punk Hazard",
+        "image": "images/vergo.png"
+    },
+ 
+    {
+        "name": "Tom",
+        "gender": "Homme",
+        "affiliation": "Tom's Workers",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Water Seven",
+        "image": "images/tom.png"
+    },
+ 
+    {
+        "name": "Charlotte Crackers",
+        "gender": "Homme",
+        "affiliation": "L'Équipage de Big Mom",
+        "fruitType": "Paramecia",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 860000000,
+        "origin": "Grand Line",
+        "firstArc": "Whole Cake",
+        "image": "images/cracker.png"
+    },
+ 
+    {
+        "name": "Laboon",
+        "gender": "Homme",
+        "affiliation": "L'équipage du Rumbar",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "West Blue",
+        "firstArc": "Reverse Mountain",
+        "image": "images/laboon.png"
+    },
+
+    {
+        "name": "Vander Decken IX",
+        "gender": "Homme",
+        "affiliation": "L'Équipage des pirates volants",
+        "fruitType": "Paramecia",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Ile des Hommes-poissons",
+        "image": "images/vander.png"
+    },
+ 
+    {
+        "name": "Shiryu",
+        "gender": "Homme",
+        "affiliation": "L'Équipage de Barbe Noire",
+        "fruitType": "Paramecia",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": null,
+        "origin": "Grand Line",
+        "firstArc": "Impel Down",
+        "image": "images/shiryu.png"
+    },
+ 
+    {
+        "name": "Sai",
+        "gender": "Homme",
+        "affiliation": "Pays des fleurs",
+        "fruitType": "Aucun",
+        "haki": [
+            "Observation",
+            "Armement"
+        ],
+        "bounty": 210000000,
+        "origin": "West Blue",
+        "firstArc": "Dressrosa",
+        "image": "images/sai.png"
+    },
+
+    {
+        "name": "Boo",
+        "gender": "Homme",
+        "affiliation": "Pays des fleurs",
+        "fruitType": "Aucun",
+        "haki": [
+            "Armement"
+        ],
+        "bounty": 50000000,
+        "origin": "West Blue",
+        "firstArc": "Dressrosa",
+        "image": "images/boo.png"
+    },
+ 
+    {
+        "name": "Hajrudin",
+        "gender": "Homme",
+        "affiliation": "Le nouvelle Équipage des géants",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Dressrosa",
+        "image": "images/haj.png"
+    },
+ 
+    {
+        "name": "Kokoro",
+        "gender": "Femme",
+        "affiliation": "Tom's Workers",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Water Seven",
+        "image": "images/koko.png"
+    },
+                              
     {
         "name": "Koala",
         "gender": "Femme",
