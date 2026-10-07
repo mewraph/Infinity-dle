@@ -2469,7 +2469,67 @@
         "firstArc": "Water Seven",
         "image": "images/koko.png"
     },
-                              
+ 
+    {
+        "name": "Inazuma",
+        "gender": "Homme",
+        "affiliation": "Armée Révolutionnaire",
+        "fruitType": "Paramecia",
+        "haki": [],
+        "bounty": 100000000,
+        "origin": "South Blue",
+        "firstArc": "Impel Down",
+        "image": "images/inaz.png"
+    },
+
+   {
+        "name": "Igaram",
+        "gender": "Homme",
+        "affiliation": "Royaume d'Alabasta",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Whisky Peak",
+        "image": "images/iga.png"
+    },
+
+   {
+        "name": "Variété",
+        "gender": "Homme",
+        "affiliation": "Principauté de Mokomo",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Zou",
+        "image": "images/vari.png"
+    },
+
+   {
+        "name": "Yomo",
+        "gender": "Homme",
+        "affiliation": "Principauté de Mokomo",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "Grand Line",
+        "firstArc": "Zou",
+        "image": "images/.png"
+    },
+    
+    {
+        "name": "Wanze",
+        "gender": "Homme",
+        "affiliation": "Cipher Pol 7",
+        "fruitType": "Aucun",
+        "haki": [],
+        "bounty": 0,
+        "origin": "West Blue",
+        "firstArc": "Water Seven",
+        "image": "images/wanze.png"
+    },
+                                
     {
         "name": "Koala",
         "gender": "Femme",
